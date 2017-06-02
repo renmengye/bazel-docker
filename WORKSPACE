@@ -17,10 +17,3 @@ docker_pull(
   repository = "tensorflow/tensorflow",
   tag = "1.1.0",
 )
-
-docker_pull(
-  name = "java_base",
-  registry = "gcr.io",
-  repository = "distroless/java",
-  # 'tag' is also supported, but digest is encouraged for reproducibility.
-)
